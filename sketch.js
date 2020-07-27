@@ -75,7 +75,6 @@ function draw() {
         if(keyDown("space")) {
         trex.velocityY = -10;
         }
-          ground.velocityX = -4;
           if (ground.x < 0){
             ground.x = ground.width/2;
           }
